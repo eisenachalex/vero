@@ -1,22 +1,9 @@
-#filler {
-	display:block;
+#penn {
+	float:right;
+	clear:right;
 }
 
-.content {
-	padding:2%;
-	width:96%;
-	background-color:#fffff0;
-	font-size:14px;
-	color:#474747;
-	position:relative;
-	min-height:500px;
-}
 
-#wrapper {
-	margin:auto;
-	width:900px;
-	text-align:left;
-}
 
 .content p {
 	line-height:25px;
@@ -40,10 +27,7 @@ ul.services {
 	line-height:30px;
 }
 
-#penn {
-	float:right;
-	clear:right;
-}
+
 
 .question {
 	font-weight:bold;
@@ -62,4 +46,21 @@ ul.services {
 #foot_notes p {
 	margin-top:20px;
 	line-height:10px;
+}
+
+
+.content {
+	padding:2%;
+	width:96%;
+	background-color:#fffff0;
+	font-size:14px;
+	color:#474747;
+	position:relative;
+	min-height:500px;
+}
+
+#wrapper {
+	margin:auto;
+	width:900px;
+	text-align:left;
 }
