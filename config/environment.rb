@@ -6,11 +6,13 @@ Vero::Application.initialize!
 
 
 ActionMailer::Base.smtp_settings = {
-:address => 'mydomain.com',
-:port => 587,
-:user_name => "myusername",
-:password => "password",
-:authentication => :plain,
-:enable_starttls_auto => true,
-:openssl_verify_mode => 'none' 
+
+  address:              'smtp.gmail.com',
+  port:                 587,
+  domain:               'gmail.com',
+  user_name:            'customtechfront@gmail.com',
+  password:             'albutler92',
+  authentication:       'plain',
+  enable_starttls_auto: true  
+
 }
