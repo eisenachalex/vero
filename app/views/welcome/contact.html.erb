@@ -1,0 +1,70 @@
+<div class="content">
+	<div id="map">
+		<script>
+var myCenter=new google.maps.LatLng(37.644379,-77.579834);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:14,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("map"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+	</div>
+	
+	<h1>Contact us</h1>
+<p>Email Us: <a href="mailto:info@veroconsulting.net">info@veroconsulting.net</a> 
+</p>
+<p>Phone: (804) 288-7000</p>
+<p>Fax: (804) 288-7068</p>
+<h4>Or, write us directly</h4>
+<%= form_for(@message, html: {id: "contact_form"}) do %>
+<%= hidden_field_tag(:inquiry_type, "General Inquiry" )%>
+
+<table>
+
+<tr>
+	<td>
+		<%= label_tag(:name, "Name:") %><br/>
+		<%= text_field_tag(:name) %>
+	</td>
+</tr>
+<tr>
+	<td>
+		<%= label_tag(:email, "Email:") %><br/>
+		<%= text_field_tag(:email) %>
+	</td>
+</tr>
+<tr>
+	<td>
+		<%= label_tag(:phone, "Phone:") %><br/>
+		<%= text_field_tag(:phone) %>
+	</td>
+</tr>
+<tr>
+	<td>
+		<%= label_tag(:message, "Message:") %><br/>
+		<%= text_area_tag(:message, :nil, size:"30x6") %>
+	</td>
+</tr>
+<tr>
+	<td>
+		<%= submit_tag("Send Message", class: "button") %>
+	</td>
+</tr>
+</table>
+
+<% end %>
+</div>

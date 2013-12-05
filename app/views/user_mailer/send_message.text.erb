@@ -1,0 +1,16 @@
+Inquiry Type: <%= @message.inquiry_type %>
+-----------------------------------------
+
+Name: <%= @message.name %>
+
+
+Email: <%= @message.email %>
+
+
+Phone: <%= @message.phone %>
+
+<% if @message.inquiry_type == "General Inquiry" %>
+Message: <%= @message.message %>
+<%else %>
+Best time to contact: <%= @message.best_time %>
+<% end %>

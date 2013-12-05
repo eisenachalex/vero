@@ -1,0 +1,65 @@
+#filler {
+	display:block;
+}
+
+.content {
+	padding:2%;
+	width:96%;
+	background-color:#fffff0;
+	font-size:14px;
+	color:#474747;
+	position:relative;
+	min-height:500px;
+}
+
+#wrapper {
+	margin:auto;
+	width:900px;
+	text-align:left;
+}
+
+.content p {
+	line-height:25px;
+	color:#474747;
+}
+
+.content h1 {
+	font-weight:500;
+	color:#114f07;
+}
+ 
+ #team_image {
+	position:absolute;
+	right:-10px;
+	top:-20px;
+	height:427px;
+	width:327px;
+}
+
+ul.services {
+	line-height:30px;
+}
+
+#penn {
+	float:right;
+	clear:right;
+}
+
+.question {
+	font-weight:bold;
+}
+
+.super {
+	vertical-align:10px;
+	color:green;
+	font-size:8px;
+}
+
+#foot_notes {
+	font-size:10px;
+	line-height:10px;
+}
+#foot_notes p {
+	margin-top:20px;
+	line-height:10px;
+}

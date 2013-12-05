@@ -1,0 +1,51 @@
+#contact_form {
+	padding:10px;
+	width:450px;
+	color:#474747;
+	background-color:#f0f0f0;
+	border:1px solid #e8e8e8;
+}
+
+#contact_form label {
+	line-height:30px;
+	color:#114f07;
+}
+#contact_form textarea, input {
+	padding:3px 5px;
+	color:black;
+	background-color:auto;
+	border:none;
+	letter-spacing:1.3px;
+}
+
+#contact_form .button {
+	margin-top:10px;
+	border:none;
+	color:white;
+	font-weight:400;
+	padding:3px 20px;
+	letter-spacing:1.3px;
+	line-height:25px;
+background-image: -ms-linear-gradient(top, #1D850C 0%, #114F07 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #1D850C 0%, #114F07 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #1D850C 0%, #114F07 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1D850C), color-stop(1, #114F07));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #1D850C 0%, #114F07 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #1D850C 0%, #114F07 100%);
+}
+#map {
+	float:right;
+	width:350px;
+	height:350px;
+	background-color:green;
+}

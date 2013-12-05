@@ -1,0 +1,86 @@
+<div class="content">
+
+<h1> Retirement Readiness Review</h1>
+
+<h3>Are you ready for retirement? Whatever the case may be, we recommend you take advantage of a second opinion.</h3>
+
+<p>At Vero Financial Group, our priority is you and your future. Even if you are not a current client,
+
+take advantage of a complimentary consultation of your current retirement investments. We will 
+
+give you our professional opinion as to whether or not you are striving to enhance your financial 
+
+potential under your current investment strategies.</p>  
+
+
+<h3>What you can expect from a complimentary portfolio consultation:</h3> 
+<ul class="services">
+<li>Portfolio Analysis & Monte Carlo Test<spanc class="super">1</span></li> 
+	<ul>
+		<li>The portfolio analysis compares your current investments to our suggested
+			investment models to compare historical risk and return</li>
+		<li>The Monte Carlo test is hypothetical in nature and analyzes how your investments will perform during different market scenarios.</li>
+	</ul>
+<li>Gap Analysis</li>
+	<ul>
+		<li>The gap analysis examines the fee structure, holdings overlap, and your current asset allocation and shows possible improvements to your current holdings</li>
+	</ul>
+<li>Overview of custom-built investment portfolios </li>
+<li>Discussion of risk tolerance and financial goals & needs</li>
+<li>Social Security Optimizer</li>
+	<ul>
+		<li>The optimizer will take into account your earnings history and your age to determine the optimal strategy depending on when you need to start taking social security distributions.</li>
+	</ul>
+<li>Our professional advice</li>
+</ul>
+
+<h4>To schedule a complimentary Retirement Readiness Review, please fill out the following form OR contact us at(804) 288-7000</h4>
+<%= form_for(@message, html: {id: "contact_form"}) do %>
+<%= hidden_field_tag(:inquiry_type, "Retirment Readiness Review Inquiry" )%>
+
+<table>
+
+<tr>
+	<td>
+		<%= label_tag(:name, "Name:") %><br/>
+		<%= text_field_tag(:name) %>
+	</td>
+</tr>
+<tr>
+	<td>
+		<%= label_tag(:phone, "Phone:") %><br/>
+		<%= text_field_tag(:phone) %>
+	</td>
+</tr>
+<tr>
+	<td>
+		<%= label_tag(:email, "Email:") %><br/>
+		<%= text_field_tag(:email) %>
+	</td>
+</tr>
+<tr>
+	<td>
+		<%= label_tag(:best_time, "Best time to contact:") %><br/>
+		<%= text_field_tag(:best_time) %>
+	</td>
+</tr>
+<tr>
+	<td>
+		<%= submit_tag("Send",class: "button") %>
+	</td>
+</tr>
+</table>
+
+<% end %>
+<br/>
+<br/>
+<div id="foot_notes">
+1: Monte Carlo analysis is a risk and decision analysis tool that assumes some of the inputs 
+
+vary over time. Investments in model strategies may expose the investor to risks inherent within the 
+
+model. All investments involve the risk of potential investment losses. Past performance does not
+
+guarantee future results.
+</div>
+</div>
