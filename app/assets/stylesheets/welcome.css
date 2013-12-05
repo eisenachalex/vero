@@ -6,6 +6,7 @@
 	color:#474747;
 	position:relative;
 	min-height:500px;
+	font-size:12px;
 }
 
 #wrapper {
@@ -29,6 +30,11 @@
 .content h1 {
 	font-weight:500;
 	color:#114f07;
+	font-family:Times New Roman;
+}
+
+.content h2,h3,h4,h5,h6{
+	font-family:Times New Roman;
 }
  
  #team_image {

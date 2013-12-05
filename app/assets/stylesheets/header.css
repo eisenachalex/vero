@@ -19,6 +19,7 @@ nav {
 	list-style-type: none;
 	margin:0px;
 	padding:0px;
+	font-family:Times New Roman;
 
 
 }
@@ -27,44 +28,29 @@ nav {
 	float:left;
 	width:150px;
 	text-align:center;
-/* IE10 Consumer Preview */ 
-background-image: -ms-linear-gradient(top, #1D850C 0%, #114F07 100%);
-
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #1D850C 0%, #114F07 100%);
-
-/* Opera */ 
-background-image: -o-linear-gradient(top, #1D850C 0%, #114F07 100%);
-
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1D850C), color-stop(1, #114F07));
-
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #1D850C 0%, #114F07 100%);
-
-/* W3C Markup, IE10 Release Preview */ 
-background-image: linear-gradient(to bottom, #1D850C 0%, #114F07 100%);
+	border-top:1px solid #114f07;
+	border-bottom:1px solid #114f07;
 }
 
 #header ul li a {
-	color:#e8e8e8;
+	color:#114f07;
 	display:block;
 	text-decoration:none;
 	font-size:14px;
 	padding:10px;
-	border-right:1px solid #114F07;
 	text-transform:uppercase;
 }
 
 #header ul li a:hover {
 	background-color:#114f07;
+	color:white;
 }
 
 #slogan {
 	position:absolute;
-	top:30px;
+	top:50px;
 	right:0px;
-
-	font-family:Florence,cursive;
+	font-style:italic;
+	font-family:Times New roman;
 
 }
