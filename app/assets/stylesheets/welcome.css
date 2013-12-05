@@ -1,9 +1,25 @@
+.content {
+	padding:2%;
+	width:96%;
+	background-color:#fffff0;
+	font-size:14px;
+	color:#474747;
+	position:relative;
+	min-height:500px;
+}
+
+#wrapper {
+	margin:auto;
+	width:900px;
+	text-align:left;
+	font-family:arial;
+}
+
+
 #penn {
 	float:right;
 	clear:right;
 }
-
-
 
 .content p {
 	line-height:25px;
@@ -49,18 +65,3 @@ ul.services {
 }
 
 
-.content {
-	padding:2%;
-	width:96%;
-	background-color:#fffff0;
-	font-size:14px;
-	color:#474747;
-	position:relative;
-	min-height:500px;
-}
-
-#wrapper {
-	margin:auto;
-	width:900px;
-	text-align:left;
-}
