@@ -5,6 +5,7 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
+  host: localhost
   database: vero
   pool: 5
   timeout: 5000
@@ -15,6 +16,7 @@ development:
 test:
   adapter: postgresql
   database: vero
+  host: localhost
   pool: 5
   timeout: 5000
 
