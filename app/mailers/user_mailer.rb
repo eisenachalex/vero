@@ -3,7 +3,7 @@ class UserMailer < ActionMailer::Base
 
   def send_message(message)
   	@message = message
-  	@email = "info@veroconsulting.net"
+  	@email = "eisenachalex@gmail.com"
   	mail to: @email, subject: "You have received a message"
   end
 end
